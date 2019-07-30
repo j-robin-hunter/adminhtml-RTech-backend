@@ -1,0 +1,44 @@
+//**
+// Copyright © 2019 Roma Technology Ltd. All rights reserved.
+// See COPYING.txt for license details.
+//**
+
+//
+// Brand
+//  ---------------------------------------------
+@color-brand: #84c1c1;
+@color-brand-secondary:#579aba;
+@color-brand-grey: #a0a0a0;
+@color-brand-grey-light: #dbdbdb;
+@color-brand-grey-dark: #777;
+
+@primary__color: @color-brand;
+@success__color: @color-brand-secondary;
+@text__color: @color-brown-darker;
+@border__color: @color-gray89;
+
+@link__color: @color-brand-secondary;
+@link__hover__color: @color-brand-secondary;
+
+//  Primary button
+@button-primary__background-color: @color-brand;
+@button-primary__color: @color-white;
+@button-primary__hover__background-color: @color-brand-secondary;
+@button-primary__hover__border-color: @color-brand-secondary;
+
+//  Secondary button
+@button-secondary__background-color: @color-brownie;
+@button-secondary__border-color: @button-secondary__background-color;
+@button-secondary__color: @color-white;
+@button-secondary__active__background-color: @color-very-dark-gray-black2;
+@button-secondary__hover__background-color: @color-very-dark-gray-black2;
+@button-secondary__hover__border-color: @button-secondary__hover__background-color;
+
+.tabs-horiz {
+  //  Active tab
+  .ui-state-active {
+    .ui-tabs-anchor {
+      border-top: .4rem solid @color-brand-secondary;
+    }
+  }
+}
